@@ -5,8 +5,6 @@ import CommonCrypto
 import Cmd5
 #endif
 
-// From: https://stackoverflow.com/questions/7627723/how-to-create-a-md5-hash-of-a-string-in-c
-
 extension UnsafeRawBufferPointer {
     public func md5() -> Data {
         #if os(macOS)
