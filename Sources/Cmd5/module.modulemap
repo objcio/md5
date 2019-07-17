@@ -1,0 +1,5 @@
+module Cmd5 [system] {
+    header "shim.h"
+	export *
+	link "ssl"
+}
